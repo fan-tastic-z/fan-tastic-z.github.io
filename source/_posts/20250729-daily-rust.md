@@ -2,9 +2,12 @@
 title: 20250729-daily-rust
 date: 2025-07-29 18:09:59
 tags:
-published: false
+  - daily
+  - rust
+categories:
+  - daily
+published: true
 ---
-
 ## Rust Tips
 
 Rust 中 iterators 非常强大，两个使用的函数：
@@ -27,3 +30,5 @@ fn main() {
 ```
 
 ## Rust 学习资源
+
+<https://rust-exercises.com/> 非常不错的rust 新手学习资源，同时这个课程可以在 JetBrains 的 Rust IDE RustRover 中使用。<https://blog.jetbrains.com/education/2025/07/28/rust-exercises-rustrover/>
