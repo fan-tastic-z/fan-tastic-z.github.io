@@ -61,7 +61,3 @@ ignore: null
 theme: butterfly
 deploy:
   type: ''
-theme_config:
-  gitalk:
-    client_id: 123
-    client_secret: 456
