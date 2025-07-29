@@ -566,6 +566,7 @@ gitalk:
   repo: "fan-tastic-z.github.io"
   owner: "fan-tastic-z"
   admin:
+    - "fan-tastic-z"
   option:
 
 # Valine

@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITALK_CLIENT_ID: ${{ secrets.GITALK_CLIENT_ID }}
+      GITALK_CLIENT_SECRET: ${{ secrets.GITALK_CLIENT_SECRET }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,11 +29,12 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      - name: Update Gitalk Config
+        run: |
+          npx hexo config theme_config.gitalk.client_id $GITALK_CLIENT_ID
+          npx hexo config theme_config.gitalk.client_secret $GITALK_CLIENT_SECRET
       - name: Build
         run: npm run build
-        env:
-          GITALK_CLIENT_ID: ${{ secrets.GITALK_CLIENT_ID }}
-          GITALK_CLIENT_SECRET: ${{ secrets.GITALK_CLIENT_SECRET }}
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
