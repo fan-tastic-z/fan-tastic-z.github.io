@@ -63,5 +63,5 @@ deploy:
   type: ''
 theme_config:
   gitalk:
-    client_id: ${GITALK_CLIENT_ID}
-    client_secret: ${GITALK_CLIENT_SECRET}
+    client_id: 123
+    client_secret: 456
