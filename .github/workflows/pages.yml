@@ -28,7 +28,7 @@ jobs:
         run: npm install
       - name: Update Gitalk Config
         run: |
-          npx hexo config theme_config.gitalk.client_id ${{ secrets.GITALK_CLIENT_ID }}
+          npx hexo config theme_config.gitalk.client_id ${{ secrets.GITALK_CLIENTID }}
           npx hexo config theme_config.gitalk.client_secret ${{ secrets.GITALK_CLIENT_SECRET }}
       - name: Build
         run: npm run build
