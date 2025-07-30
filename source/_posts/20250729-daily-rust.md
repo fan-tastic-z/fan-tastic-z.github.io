@@ -10,7 +10,7 @@ published: true
 ---
 ## Rust Tips
 
-Rust 中 iterators 非常强大，两个使用的函数：
+Rust 中 iterators 非常强大，两个实用的函数：
 
 - peekable: 允许查看下一个元素但不使用它
 - partition(cond_fn): 根据条件将迭代器划分为单独的集合
