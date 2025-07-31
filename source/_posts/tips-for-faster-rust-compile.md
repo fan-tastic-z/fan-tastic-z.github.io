@@ -5,7 +5,7 @@ tags:
   - rust
 categories:
   - rust
-published: false
+published: true
 ---
 ## Updatge Rust Compiler And ToolChain
 
@@ -36,6 +36,11 @@ cargo install cargo-machete && cargo machete
 - Linux: <https://github.com/rui314/mold>
 
 目前github 上比较活跃的还有： <https://github.com/davidlattimore/wild> 可以根据实际的情况选择
+
+## 拆分 Crates
+
+- 将大的 crate 分解成更小的 crate，可以提高编译速度和可维护性。
+- 使用 `cargo workspaces` 来管理多个 crate。
 
 ## MacOS: Faster Incremental Debug Builds
 
