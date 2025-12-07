@@ -71,6 +71,11 @@
   resolved "http://mirrors.cloud.tencent.com/npm/@csstools/css-tokenizer/-/css-tokenizer-3.0.4.tgz"
   integrity sha512-Vd/9EVDiu6PPJt9yAh6roZP6El1xHrdvIVGjyBsHR0RYwNHgL7FJPyIIW4fANJNG6FtyZfvlRPpFI4ZM/lubvw==
 
+"@types/trusted-types@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz"
+  integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
+
 a-sync-waterfall@^1.0.0:
   version "1.0.1"
   resolved "http://mirrors.cloud.tencent.com/npm/a-sync-waterfall/-/a-sync-waterfall-1.0.1.tgz"
@@ -653,6 +658,11 @@ get-proto@^1.0.1:
     dunder-proto "^1.0.1"
     es-object-atoms "^1.0.0"
 
+git-cz@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.npmjs.org/git-cz/-/git-cz-4.9.0.tgz"
+  integrity sha512-cSRL8IIOXU7UFLdbziCYqg8f8InwLwqHezkiRHNSph7oZqGv0togId1kMTfKil6gzK0VaSXeVBb4oDl0fQCHiw==
+
 glob-parent@~5.1.2:
   version "5.1.2"
   resolved "http://mirrors.cloud.tencent.com/npm/glob-parent/-/glob-parent-5.1.2.tgz"
@@ -1123,9 +1133,9 @@ js-yaml-js-types@^1.0.0:
     esprima "^4.0.1"
 
 js-yaml@^4.1.0, js-yaml@4.x:
-  version "4.1.0"
-  resolved "http://mirrors.cloud.tencent.com/npm/js-yaml/-/js-yaml-4.1.0.tgz"
-  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz"
+  integrity sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==
   dependencies:
     argparse "^2.0.1"
 
