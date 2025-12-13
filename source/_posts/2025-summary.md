@@ -1,5 +1,5 @@
 ---
-title: 2025-summary
+title: 2025 summary
 date: 2025-12-07 10:22:33
 tags:
   - summary
